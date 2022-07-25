@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/** 
+    CLASS - . 
+    ID - #
+**/
+
+
+/******* CABEÇALHO *********/
+header {
+    background-color: #FFAA00;
+    height: 120px;
+    display: flex;
+}
+.logo-campeonato {
+    height: 110px;
+    margin: 5px 0 5px 100px;
+}
+.titulo-header-camBet {
+    text-align: center;
+    color: #FDFFEE;
+    width: 60%;
+    font-size: 2.5em;
+    margin: 12px 0;
+}
+.header-input-nav {
+    margin: 30px 0;
+}
+.header-busca {
+    width: 200px;
+    height: 25px;
+    background-color: #042755;
+    color: #FDFFEE;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    margin: 40px 0;
+    font-weight: bold;
+}
+.header-busca::placeholder {
+    color:#FFAA00
+}
+.header-busca:hover {
+    background-color: #FDFFEE;
+    color: #042755;
+}
+.header-menu-ul {
+    list-style: none;
+    /*border: 1px solid #042755;*/
+    /*background-color: #042755;*/
+    margin-top: 10px;
+}
+.header-menu-ul li {
+    position: relative;
+    /*border: 1px solid #042755;*/
+}
+.header-menu-ul li a {
+    color: #FDFFEE;
+    text-decoration: none;
+}
+.hearder-menu-img {
+    height: 25px;
+    margin: 31px 5px 0 0;
+}
+.header-menu-ul li ul {
+    position: absolute;
+    background-color: #FFAA00;
+    border: 2px solid #042755;
+    border-radius: 5px;
+    display: none;
+}
+.header-menu-ul li:hover ul, .header-menu-ul li.over ul {
+    display: block;
+}
+.header-menu-ul li ul li {
+    border-radius: 5px;
+    display: block;
+    width: 200px;
+    height: 25px;
+    padding: 5px 5px 0 8px;
+}
+.header-menu-ul li ul li:hover {
+    background-color: #042755;
+}
+
+/******* CONTEUDO *********/
+.container {
+    background-color: #FDFFEE;
+    margin: 5px 60px;
+}
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+}
+.col-6 {
+    width: 50%;
+}
+
+.nome-tabela-grupo {
+    text-align: center;
+    color: #042755;
+    width: 90%;
+}
+/******* tabela *********/
+.escudo-times {
+    height: 15px;
+}
+thead {
+    color: #FFAA00;
+    background-color: #042755;
+}
+.tabela-campeonato {
+    width: 90%;
+}
+.tr-table-campeonato-2 {
+    background-color: #008000;
+    color: #FDFFEE;
+}
+.tr-table-campeonato-3-4 {
+    background-color: #D3D3D3;
+}
+.tr-table-campeonato-5 {
+    background-color: #FF0000;
+}
+td {
+    height: 30px;
+}
+.td-table-class {
+    width: 40%;
+    padding: 0 0 0 7px;
+}
+.td-table-dados {
+    width: 7.5%;
+    text-align: center;
+}
+
+/******* JOGOS DA ROdADA *********/
+.jogos-rodada {
+    text-align: center;
+    color: #042755;
+    font-size: 20px;
+    width: 90%;
+    border-top: #FFAA00 solid 2px;
+    border-bottom: #FFAA00 solid 2px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.table-jogo-rodada {
+    width: 90%;
+    border: #FFAA00 solid 2px;
+    background-color: #042755;
+    color: #FDFFEE;
+}
+.data-jogo-rodada {
+    text-align: center;
+    color: #FDFFEE;
+    width: 100%;
+    font-weight: bold;
+    height: 20px;
+}
+.td-jogo-time {
+    width: 35%;
+    border: #FFAA00 solid 1px;
+    padding: 0 0 0 10px;
+    color: #FFAA00;
+}
+.td-jogo-placar {
+    width: 7%;
+    border: #D3D3D3 solid 1px;
+    text-align: center;
+    background-color: #FFAA00;
+    color: #042755;
+}
+.td-jogo-x {
+    width: 6%;
+    text-align: center;
+    color: #FFAA00;
+}
+
+/******* SEMIFINAIS *********/
+.semifinais-camp {
+    text-align: center;
+    color: #042755;
+    font-size: 20px;
+    width: 95%;
+    border-top: #FFAA00 solid 2px;
+    border-bottom: #FFAA00 solid 2px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.semifinais {
+    width: 90%;
+    border: #042755 solid 1px;
+    background-color: #FFAA00;
+    color: #FDFFEE;
+}
+.semi-data-jogo {
+    text-align: center;
+    color: #FDFFEE;
+    width: 100%;
+    font-weight: bold;
+    height: 20px;
+}
+.colocados {
+    width: 35%;
+    border: #042755 solid 1px;
+    padding: 0 0 0 10px;
+    color: #042755;
+}
+.placares {
+    width: 7%;
+    text-align: center;
+    background-color: #042755;
+    color: #FFAA00;
+}
+.placares-x {
+    width: 6%;
+    text-align: center;
+    color: #042755
+}
+/******* TERCEIRO LUGAR *********/
+.terceiro-lugar {
+    text-align: center;
+    color: #042755;
+    font-size: 20px;
+    width: 95%;
+    border-top: #FFAA00 solid 2px;
+    border-bottom: #FFAA00 solid 2px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.table-terceiro-lugar {
+    border-bottom: #FFAA00 solid 3px;
+    width: 95%;
+    color: #D3D3D3;
+    background-color: #042755;
+}
+.td-terceiro-lugar {
+    text-align: center;
+    border-bottom: #FFAA00 solid 2px;
+}
+.td-pd-terceiro {
+    background-color: #D3D3D3;
+    width: 35%;
+    color: #042755;
+    text-align: center;
+    font-size: 25px;
+}
+.td-placar-terceiro {
+    background-color: #D3D3D3;
+    width: 7%;
+    color: #042755;
+    text-align: center;
+    font-size: 25px;
+}
+.td-x-terceiro {
+    background-color: #D3D3D3;
+    width: 6%;
+    color: #042755;
+    text-align: center;
+    font-size: 25px;
+}
+/******* FINAIL *********/
+.final {
+    text-align: center;
+    color: #042755;
+    font-size: 20px;
+    width: 95%;
+    border-top: #042755 solid 2px;
+    border-bottom: #042755 solid 2px;
+    background-color: #FFAA00;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.table-final {
+    background-color: #042755;
+    width: 95%;
+}
+.td-data-final {
+    text-align: center;
+    color: #FDFFEE;
+    border-bottom: #FDFFEE solid 1px;
+}
+.td-time-final {
+    width: 35%;
+    color: #FFAA00;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: #FFAA00 solid 2px;
+}
+.td-placar-final {
+    width: 7%;
+    color: #FDFFEE;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: #FDFFEE solid 2px;
+}
+.td-x-final {
+    width: 6%;
+    color: #FFAA00;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: #FFAA00 solid 2px;
+}
+
+/******* RODAPÉ *********/
+footer {
+    background-color: #042755;
+    height: 80px;
+    text-align: center;
+    color: #FDFFEE;
+}
+.footer-todos-direito {
+    padding-top: 20px;
+}
+.img-footer-icones {
+    width: 15px;
+}
