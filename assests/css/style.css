@@ -107,7 +107,9 @@ header {
 }
 /******* tabela *********/
 .escudo-times {
-    height: 15px;
+    height: 18px;
+    padding-left: 10px;
+    padding-right: 5px;
 }
 thead {
     color: #FFAA00;
